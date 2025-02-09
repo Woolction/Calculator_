@@ -29,7 +29,7 @@
 
                     try
                     {
-                        Console.Write("введите первое число: ");
+                        Console.Write("Enter first number: ");
                         num1 = Convert.ToInt32(Console.ReadLine());
 
                         Console.WriteLine("");
@@ -39,7 +39,7 @@
                     {
                         num1 = null;
 
-                        Console.WriteLine("proizoshla oshibka poprobuyte zanogo!");
+                        Console.WriteLine("An error has occurred!");
                     }
                     if (num1 == null) { ple = true; }
                     else { ple = false; }
@@ -50,7 +50,7 @@
                     try
                     {
 
-                        Console.Write("введите второе число: ");
+                        Console.Write("Enter second number: ");
                         num2 = Convert.ToInt32(Console.ReadLine());
 
                         Console.WriteLine("");
@@ -60,7 +60,7 @@
                     {
                         num2 = null;
 
-                        Console.WriteLine("proizoshla oshibka poprobuyte zanogo!");
+                        Console.WriteLine("An error has occurred!");
                     }
                     if (num2 == null) { pl = true; }
                     else { pl = false; }
@@ -85,7 +85,7 @@
                         num3 = null;
 
                         Console.WriteLine();
-                        Console.WriteLine("proizoshla oshibka poprobuyte zanogo!");
+                        Console.WriteLine("An error has occurred!");
                         Console.WriteLine();
                     }
                     if (num3 == null) { p = true; }
@@ -137,7 +137,7 @@
                     default: break;
                 }
 
-                Console.WriteLine("hotite li vi yeshe raz vospolzovatsa kalkulatorom? (Y/N): ");
+                Console.WriteLine("Would you like to use a calculator? (Y/N): ");
                 string k = Console.ReadLine(); k = k.ToUpper();
 
 
